@@ -1,0 +1,36 @@
+It is analysis of max gained numbers from tickets over all history of the game
+Next set is set of numbers with max occurrence of 2 levels of every ball of the ticket:
+{1, 2, 38, 39, 10, 11, 48, 49, 20, 22, 29, 30}
+And with this set it forms
+924
+of posible combinations of tickets.
+After making analysis of last 108 games, comparing set of balls with maximum occurrence and gaining tickets,
+I got list of numbers where every number are number of balls from set with max occurrence that coincide
+with balls from gaining tiquet
+[1, 1, 2, 1, 1, 0, 2, 2, 4, 0, 3, 1, 0, 2, 1, 4, 1, 2, 2, 1, 2, 1, 1, 2, 2, 1, 1, 2, 1, 2, 2, 2, 1, 2, 1, 0,
+ 1, 1, 1, 2, 1, 2, 1, 1, 0, 1, 0, 4, 1, 2, 3, 0, 3, 1, 3, 4, 1, 1, 1, 0, 2, 0, 1, 0, 2, 2, 2, 1, 0, 0, 1, 2,
+ 2, 4, 1, 3, 2, 0, 0, 2, 3, 2, 1, 0, 1, 0, 1, 3, 2, 0, 2, 1, 3, 1, 2, 1, 1, 2, 1, 3, 1, 1, 1, 2, 1, 0, 1, 0]
+
+And mean is 1.4166666666666667
+
+Analysis was done getting to consideration 2 max occurrence of every one of 6 positions of the ball from ticket indepedently.
+
+
+
+
+It is analysis of max gained numbers from tickets over all history of the game
+Next set is set of numbers with max occurrence of 3 levels of every ball of the ticket:
+{1, 2, 3, 37, 38, 39, 10, 11, 15, 48, 49, 47, 19, 20, 22, 26, 29, 30}
+And with this set it forms
+18564
+of posible combinations of tickets.
+After making analysis of last 108 games, comparing set of balls with maximum occurrence and gaining tickets,
+I got list of numbers where every number are number of balls from set with max occurrence that coincide
+with balls from gaining tiquet
+[2, 1, 2, 2, 3, 0, 3, 2, 4, 0, 3, 3, 1, 2, 3, 5, 2, 3, 2, 1, 3, 1, 2, 2, 2, 3, 1, 4, 2, 2, 2, 3, 1, 3, 2, 2, 3,
+ 2, 3, 3, 1, 3, 3, 2, 1, 3, 1, 5, 2, 4, 4, 2, 5, 2, 3, 4, 2, 1, 2, 2, 3, 0, 2, 0, 2, 4, 4, 1, 2, 0, 2, 4, 3, 5,
+ 1, 3, 3, 1, 1, 2, 3, 2, 1, 1, 1, 1, 2, 3, 5, 1, 3, 2, 4, 2, 3, 2, 3, 2, 2, 3, 2, 3, 1, 3, 2, 1, 2, 1]
+
+And mean is 2.2777777777777777
+
+Analysis was done getting to consideration 3 max occurrence of every one of 6 positions of the ball from ticket indepedently.
